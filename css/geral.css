@@ -18,7 +18,7 @@
   
   body {
     
-    background-color: aqua;
+    background: aqua;
     background-size: cover;
     margin: 0;
     display: flex;
