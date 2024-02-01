@@ -1,0 +1,48 @@
+
+
+.marca {
+  font-family: lazer84;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+
+h1 {
+  font-family: lazer84;
+  font-weight: 10;
+  font-size: auto;
+}
+
+header {
+  display: flex;  
+  flex-direction:column;
+  width: 100%; /* Garante que o header ocupe a largura total */
+  position: fixed; /* Mantém o header fixo no topo da tela */
+  top: 0; /* Alinha o header no topo da tela */
+  height: 30px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+.navbar {
+  background-color: #000;
+  padding: 0.1px;
+  width: 100%;
+  color: #fff;
+  line-height: 30px;
+  margin-left: 0;
+}
+
+
+
+.bordas {
+  margin-top: -1px;
+  background: linear-gradient(90deg, #c501e2, #ff007f, #ff9933, #c501e2, #ff007f, #ff9933, transparent);
+  padding: 5px;
+  /* Adiciona um espaçamento interno */
+  width: 100%;
+  display: block;
+  padding: 1.5px; /* Opcional: adiciona algum espaço ao redor do texto */
+}

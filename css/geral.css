@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'lazer84';
+    src: url(./fontes/Lazer84.ttf);
+  
+  
+  }
+  
+  @font-face {
+    font-family: 'montserrat';
+    src: url(./fontes/Montserrat-VariableFont_wght.ttf);
+   
+  } 
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+    background-image: url(./img/modelo2.png);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Diária - Drinks</title>
+    <link rel="stylesheet" href="import.css">
+    <link rel="icon" href="./css/img/licor.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="marca">DRINK ' S</a>
+            <label class="bordas"></label>
+        </nav>
+    </header>
+
+    <div class="container" id="cont">
+        <div class="row1">
+            <h1>Meta Diária</h1>
+            <label class="data" disabled>Data:</label>
+            <input type="date" id="data" readonly>
+            <label for="metaDiaria">Defina a meta diária:</label>
+            <input type="number" id="MetaDiaria">
+            <label for="valorDiario">Insira o valor diário:</label>
+            <input type="number" id="valorDiario" min="0">
+            <button onclick="adicionarValorDiario()">Adicionar Valor</button>
+            <p id="resultado"></p>
+
+        </div>
+        <div class="row2">
+            <h1 class="teste">Analise</h1>
+            <label class="teste" for="lucro">lucro:</label>
+            <br>
+            <p id="lucroo" class="teste">0</p>
+            <br>
+            <label for="falta" class="teste">falta:</label>
+            <br>
+            <p id="falta" class="teste">0</p>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
