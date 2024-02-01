@@ -18,7 +18,7 @@
   
   body {
     
-    background-image: url(css/img/modelo2.png);
+    background-color: aqua;
     background-size: cover;
     margin: 0;
     display: flex;
