@@ -19,7 +19,7 @@
   
   body {
     
-    background-image: url(./img/modelo2.png); 
+    background-image: url(css/img/modelo2.png);
     background-size: cover;
     margin: 0;
     display: flex;
