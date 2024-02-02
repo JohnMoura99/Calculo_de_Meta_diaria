@@ -1,5 +1,9 @@
 @media (max-width: 700px) {
  
+  body {
+    
+    background-image: url(./img/modelo2.png);
+  }
   .container {
       display: flex;
       flex-direction: column;
